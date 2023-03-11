@@ -1,0 +1,7 @@
+.hero__image {
+  width: 362px;
+  height: 362px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 11px solid #fff;
+}

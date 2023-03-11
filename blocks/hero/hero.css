@@ -1,0 +1,7 @@
+.hero {
+  min-height: 384px;
+  padding: 72px 168px 71px;
+  background-color: #1B2944;
+  display: flex;
+  justify-content: space-between;
+}

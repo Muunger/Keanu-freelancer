@@ -1,0 +1,6 @@
+.header__social {
+  min-width: 944px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
