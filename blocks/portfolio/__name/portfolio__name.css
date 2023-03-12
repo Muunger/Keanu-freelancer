@@ -1,0 +1,13 @@
+.portfolio__name {
+  max-width: 170px;
+  width: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  bottom: 76px;
+  z-index: 1;
+}

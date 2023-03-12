@@ -1,0 +1,12 @@
+.form {
+  margin-right: 96px;
+  width: 380px;
+  height: 348px;
+  background-color: #fff;
+  padding: 47px 42px 61px;
+  box-shadow: -5px 5px #ffc41d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
