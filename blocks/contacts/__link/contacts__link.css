@@ -4,4 +4,14 @@
   line-height: 28px;
   text-decoration: none;
   color: #fff;
+  margin-right: 50px;
+  transition-duration: 0.3s;
+}
+
+.contacts__link:last-child {
+  margin-right: 0;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
 }

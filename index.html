@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Document</title>
+  <title>Портфолио</title>
 </head>
 <body>
   <div class="page">
@@ -126,7 +126,7 @@
 
     <!-- gallery -->
 
-    <section class="gallery">
+    <section class="gallery" aria-label="Галерея">
 
       <ul class="gallery__block">
         <li class="gallery__item">
@@ -150,7 +150,11 @@
         </li>
 
         <li class="gallery__item">
-          <img src="./images/gallery/gallery06.jpg" alt="фото6" class="gallery__image">
+          <video muted controls poster="./images/gallery/gallery06.jpg" class="gallery__video">
+            <source src="./video/video-1.mp4" type="video/mp4">
+          </video>
+          <p class="gallery__text">0:13</p>
+          <img src="./images/play_circle_filled.svg" alt="Плей" class="gallery__icon">
         </li>
 
         <li class="gallery__item">
@@ -170,7 +174,11 @@
         </li>
 
         <li class="gallery__item">
-          <img src="./images/gallery/gallery11.jpg" alt="фото11" class="gallery__image">
+          <video muted controls poster="./images/gallery/gallery11.jpg" class="gallery__video">
+            <source src="./video/video-2.mp4" type="video/mp4">
+          </video>
+          <p class="gallery__text">0:53</p>
+          <img src="./images/play_circle_filled.svg" alt="Плей" class="gallery__icon">
         </li>
 
         <li class="gallery__item">
@@ -184,13 +192,13 @@
 
     <footer class="footer">
       <h2 class="section-title">Свяжитесь со мной</h2>
-      
+
       <div class="footer__block">
 
         <form class="form">
           <h3 class="form__title">Можете просто оставить завяку, я позвоню вам сегодня</h3>
           <div class="form__group">
-            <input class="form__input" type="name" placeholder="Ваше имя">
+            <input class="form__input" type="text" placeholder="Ваше имя">
             <img class="form__image" src="./images/user-icon.svg" alt="#">
           </div>
           <div class="form__group">
@@ -209,14 +217,14 @@
 
           <div class="contacts__mail">
             <h3 class="contacts__title">Почта</h3>
-            <p class="contacts__info">ivanov@mail.ru</p>
+            <p class="contacts__info" lang="en">ivanov@mail.ru</p>
           </div>
 
           <div class="contacts__social">
             <h3 class="contacts__title">Соцсети</h3>
-            <a href="#" class="contacts__link">t.me/ivanov</a>
-            <a href="#" class="contacts__link">vk.me/ivanov</a>
-            <a href="#" class="contacts__link">fb.me/ivanov</a>
+            <a href="#" class="contacts__link" target="_blank" lang="en">t.me/ivanov</a>
+            <a href="#" class="contacts__link" target="_blank" lang="en">vk.me/ivanov</a>
+            <a href="#" class="contacts__link" target="_blank" lang="en">fb.me/ivanov</a>
           </div>
           
           <nav class="logo-zone logo-zone_place_footer">
@@ -234,7 +242,7 @@
             </a>
           </nav>
 
-          <a href="#" class="contacts__text">Политика конфиденциальности</a>
+          <a href="#" class="contacts__text" target="_blank">Политика конфиденциальности</a>
         </div>
       </div>
     </footer>

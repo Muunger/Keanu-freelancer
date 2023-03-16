@@ -1,0 +1,7 @@
+.gallery__icon {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,20 @@
+.gallery__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery__video:hover {
+  transform: scale(1.1);
+}
+
+.gallery__video:hover ~ .gallery__icon {
+  transform: translate(9px, -9px);
+  transition: 0.5s ease-in-out;
+}
+
+.gallery__video:hover ~ .gallery__text {
+  transform: translate(9px, -9px);
+  transition: 0.5s ease-in-out;
+}

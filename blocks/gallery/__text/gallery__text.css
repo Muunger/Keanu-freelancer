@@ -1,0 +1,12 @@
+.gallery__text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+  position: absolute;
+  top: 8px;
+  right: 28px;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+}

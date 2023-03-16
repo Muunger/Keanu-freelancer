@@ -3,3 +3,7 @@
   max-width: 380px;
   width: 100%;
 }
+
+.btn_place_form:hover {
+  margin-top: 12px;
+}

@@ -16,3 +16,8 @@
   bottom: 28px;
   z-index: 1;
 }
+
+.portfolio__btn:hover {
+  background-image: linear-gradient(#EC1F46, #213E60);
+  box-shadow: 0 2px #213E60;
+}
